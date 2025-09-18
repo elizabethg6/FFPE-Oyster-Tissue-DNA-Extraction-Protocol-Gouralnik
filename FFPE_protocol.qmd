@@ -1,0 +1,103 @@
+## FFPE Oyster Tissue Sample DNA Extraction Protocol
+
+This protocol generally follows the [Qiagen Advanced FFPE UNG kit](https://www.qiagen.com/us/resources/resourcedetail?id=7457c63e-d6c4-4bf6-bfca-d752bbc8b55c&lang=en) but has some adjustments to elution volume, elution buffer, and incubation time. We changed the incubation time in step 16 of the Qiagen protocol to 10 minutes, as written in step 20 of this protocol. We experimented with ATE, low TE, and water as the elution buffers and 40 µl, 200 µl, and 250 µl as the elution volumes. We found the best combination to be 40 µl of ATE and 10 minutes of incubation. We never tested low TE at low elution volumes, but saw that low TE at 200 µl also yields good results. We know that with standard fresh preserved oyster tissue (not FFPE treated), the best combination is 200 µl Low TE and 10 minutes of incubation time [(see protocol)](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_dnaextractionqiagenplate.html). 
+
+::: {.callout-note}
+## Sample Extraction Quality Consideration
+We found that the best number of samples to do at a time is 8-12. A trial with 16 samples resulted in low yield, most likely because the larger quantity of samples causes the extraction process to go slower.
+:::
+
+#### Source Of Tissue Description Here
+ADD INFO HERE
+
+
+
+#### Important steps to write down in your lab notebook are: {.unnumbered}
+- The amount of deparaffinization solution added to each sample
+- If any samples look cloudy or gunky at any point (could be due to insufficient dissolving of FFPE)
+- Incubation lengths and the time the incubation started/ended
+- Elution volumes for each sample
+- Elution buffers for each sample
+
+## **Extraction Protocol** 
+1. Add 300 µl of the Deparaffinization Solution to the formalin-fixed paraffin-embedded (FFPE) tissue samples, vortex for 10 s, and centrifuge. 
+2. Incubate at 56°C for 3 min and allow samples to cool to room temperature. 
+3. If samples are too waxy or solid after cooling (like samples 1, 5, 6, 7, & 8 in the image below), add additional Deparaffinization Solution and incubate again at 56°C for 3 min.
+
+::: {.callout-important}
+## Adding Additional Deparaffinization Solution
+Not adding enough deparaffinization solution will inhibit the downstream extraction and clog the filter. The deparaffinization solution is expensive, and it is the limiting product in the kit. Add the minimum volume necessary while making sure you add enough to get good extractions.
+:::
+
+![All 8 samples after adding 300 µl Deparaffinization Solution and incubating](img/1_FFPE_after300ul.png)
+
+::: {.callout}
+## **An example of adding additional deparaffinization solution to samples**
+When samples are still cloudy and slightly solid after adding 300 µl of Deparaffinization Solution, add 50 or 100 µl of Deparaffinization Solution at a time to help with the deparaffinization process.
+
+![The image shows samples 1, 5, 6, 7, & 8 (from the previous image with all eight samples) after adding 50 µl, 100 µl, 100 µl, 100 µl, and 200 µl, respectively, and incubating. We saw that samples 5, 6, 7, & 8 were still cloudy and thick, so we decided to add an additional 100 µl to each sample.](img/2_FFPE_first_addition.png)
+
+![The image shows samples 5, 6, 7, and 8 after adding another 100 µl to each sample and incubating. We decided to stop adding deparaffinization solution here since the samples became less cloudy.](img/3_FFPE_second_addition.png)
+:::
+
+4. Once all samples have no residual paraffin chunks and are liquid at room temperature, add 25 µl of Buffer FTB, 55 µl of RNase-free water, and 20 µl of proteinase K. Vortex and centrifuge. A constituent Master Mix (MM) can be prepared in advance.
+5. Incubate for 1 hour at 56°C and 1000 rpm.
+6. Incubate for 1 hour at 90°C (set 1 hour timer after the thermomixer has reached 90°C).
+7. Take samples out of the thermomixer and centrifuge. Set the thermomixer to 50°C for step 9.
+8. Remove and discard the upper blue phase and keep the lower aqueous lysate. If samples contain any paraffin chunks (brown/grey blobs that usually float on top of the blue layer), use a clean pipette tip to scrape the paraffin out of the sample and discard it before proceeding.
+
+![Samples after the two hours of incubation, before removing the upper blue phase.](img/4_FFPE_before_removal.png)
+
+![Samples after removing the upper blue phase, leaving only the aqueous lysate.](img/5_FFPE_after_removal.png)
+
+9. Add 115 µl RNase-free water and 35 µl of UNG, vortex, centrifuge, and incubate at 50°C for 5 min. A constituent Master Mix (MM) can be prepared in advance.
+10. Take samples out of the thermomixer and set the thermomixer to 65°C for step 12.
+11. Add 2 µl RNase A, vortex, centrifuge, and incubate for 2 min at room temperature.
+12. Add 20 µl Proteinase K, vortex, centrifuge, and incubate for 15 min at 65°C at 450 rpm.
+13. Add 250 µl Buffer AL and 250 µl ethanol (96-100%) to each sample, vortex, and centrifuge.
+14. Transfer 450 µl of the lysate to the QIAamp UCP MinElute column in a 2 ml collection tube and centrifuge at 15000 x g for 30 s.
+
+![450 µl of lysate in the spin column before centrifuging.](img/6_FFPE_before_centrifuging.png)
+
+![Spin column and collection tube after centrifuging and flow-through that collected in the collection tube.](img/7_FFPE_after_centrifuging.png)
+
+15. Transfer the residual lysate to the same QIAamp UCP MinElute column and centrifuge at 15000 x g for 1 min. Discard the flow-through and reuse the collection tube.
+
+::: {.callout-important}
+## Make sure to keep samples consistent while pipetting residual lysate.
+:::
+
+16. Add 500 µl Buffer AW1 to each spin column and centrifuge at 15000 x g for 30 s. Discard the flow-through, dab the collection tube dry on a kim wipe, and reuse the collection tube.
+17. Add 500 µl Buffer AW2 to each spin column and centrifuge at 15000 x g for 30 s. Discard the flow-through, dab the collection tube dry on a kim wipe, and reuse the collection tube.
+18. Add 250 µl ethanol (96-100%) to each spin column and centrifuge at 15000 x g for 30 s. Discard the flow-through and discard the collection tube. Place the spin column in a **new** 2 ml collection tube and centrifuge for 3 min at full speed to remove residual liquid.
+19. Place the spin column into a clean 1.5 ml microcentrifuge tube and discard the collection tube containing the flow-through. Make sure to label the cap **and** the body of the microcentrifuge tube since the cap can break off in step 21.
+
+![How the spin columns should be arranged in the microcentrifuge tube.](img/8_FFPE_spin_column_in_tube.png)
+
+20. Add your choice of elution buffer and volume to the spin column and incubate at room temperature for 10 min. We found the best yield with 40 µl of ATE.
+21. Centrifuge at full speed for 1 min to elute the DNA. The eluted DNA should look completely clear, and if there is any coloration, the filter might have been clogged before eluting.
+
+::: {.callout-note}
+An Example of how to place samples in the centrifuge for step 21 is shown below. Place the samples so that the caps point in the opposite direction that the centrifuge turns. Not doing this can cause the caps to break off at the hinge.
+![How to place samples in a centrifuge to prevent caps breaking.
+](img/9_FFPE_tubes_in_centrifuge.png)
+:::
+
+With the final eluted DNA, we quantified all samples with a [Qubit](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Qubit.html) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
